@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "0.0.1",
+  "description": "Electron app for flick",
+  "main": "dist/index.js",
+  "repository": "https://github.com/SaitamaSama/flick",
+  "author": "Gourab Nag",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "electron": "16.0.5",
+    "anitomyscript": "2.0.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.7.0",
+    "@typescript-eslint/parser": "5.7.0",
+    "eslint": "8.4.1",
+    "prettier": "2.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-config-prettier": "8.3.0"
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
